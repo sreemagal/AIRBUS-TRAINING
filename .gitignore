@@ -1,0 +1,41 @@
+# Ignore workspace metadata (never commit .metadata)
+.metadata/
+.remote/
+recovery/
+.snapshots/
+
+# Build output & intermediates
+*/Debug*/
+*/Release*/
+**/build*/
+**/Generated_Code*/
+**/bin/
+**/obj/
+**/out/
+**/tmp/
+*.o
+*.d
+*.map
+*.lst
+*.srec
+*.dis
+*.gcda
+*.gcno
+
+# Firmware/binaries (don’t version these unless using Git LFS)
+*.axf
+*.elf
+*.hex
+*.bin
+
+# Logs & OS cruft
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# —— Keep project configuration so others can import/build —— 
+# If you previously ignored these, REMOVE them from ignore:
+#!.project
+#!.cproject
+#!.settings/
