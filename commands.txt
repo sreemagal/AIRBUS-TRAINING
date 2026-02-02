@@ -1,0 +1,1 @@
+"C:\iar\ewarm-9.70.2\arm\bin\ielftool.exe" --ihex "$TARGET_PATH$" "$PROJ_DIR$\_HI-8582 Demo\_HI-8582 Demo\ewp\HI-8582_83\Exe\at91sam3u4_flash.hex"
